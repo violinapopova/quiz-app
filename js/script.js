@@ -80,29 +80,45 @@ function clearStatusClass(element) {
 
 const questions= [
     {
-        question: 'What is 2 + 2?',
+        question: 'Which planet is nearest the sun?',
         answers: [
-            { text: '4', correct: true },
-            { text: '22', correct: false }
+            { text: 'Venus', correct: false },
+            { text: 'Uranus', correct: false },
+            { text: 'Neptune', correct: false },
+            { text: 'Mercury', correct: true }
         ]
     },
     {
-        question: 'What is your favorite JS framework?',
+        question: 'What colours make purple?',
         answers: [
-            { text: 'GatsbyJS', correct: true },
-            { text: 'VueJS', correct: true },
-            { text: 'ReactJS', correct: true },
-            { text: 'NextJS', correct: true }
+            { text: 'yellow and red', correct: false },
+            { text: 'red and blue', correct: true },
+            { text: 'green and red', correct: false },
+            { text: 'blue and green', correct: false }
         ]
     },
     {
-        question: 'What is your favorite city?',
+        question: 'What is 4 * 2?',
         answers: [
-            { text: 'Copenhagen', correct: true },
-            { text: 'Barcelona', correct: false },
-            { text: 'Brussels', correct: false },
-            { text: 'Vienna', correct: false }
+            { text: '6', correct: false },
+            { text: '8', correct: true }
         ]
-    } 
+    },
+    {
+        question: 'Which is the largest ocean?',
+        answers: [
+            { text: 'Atlantic Ocean', correct: false },
+            { text: 'Indian Ocean', correct: false },
+            { text: 'Pacific Ocean', correct: true },
+            { text: 'Arctic Ocean', correct: false }
+        ]
+    },
+    {
+        question: 'Where does sound travel faster?',
+        answers: [
+            { text: 'Water', correct: true },
+            { text: 'Air', correct: false },
+        ]
+    }  
 
 ]
